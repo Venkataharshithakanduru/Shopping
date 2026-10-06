@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ShopEase - a simple e-commerce website" />
+    <title>ShopEase | Online Store</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="#home" class="logo">ShopEase</a>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#men">Men</a></li>
+          <li><a href="#women">Women</a></li>
+          <li><a href="#contact">Contact</a></li>
+          ~
+        </ul>
+
+        <form class="search-form">
+          <label for="search">Search</label>
+          <input type="search" id="search" placeholder="Search products" />
+          <button type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main>
+      <!-- HERO SECTION -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <p class="hero-kicker">NEW COLLECTION</p>
+          <h1>Big Summer Sale</h1>
+          <p>Discover stylish products at prices you will love.</p>
+          <a href="#trending" class="hero-button">Shop Now</a>
+        </div>
+      </section>
+
+      <!-- TRENDING PRODUCTS -->
+      <section id="trending" class="product-section">
+        <div class="section-heading">
+          <p class="section-kicker">WHAT'S POPULAR</p>
+          <h2>Trending Products</h2>
+          <p>Check out some of our most popular products.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+                alt="Classic wristwatch"
+              />
+              <figcaption>Classic Wristwatch</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Classic Wristwatch</h3>
+              <p>Elegant watch for everyday style.</p>
+              <strong>₹1,999</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+                alt="Running shoes"
+              />
+              <figcaption>Running Shoes</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Running Shoes</h3>
+              <p>Comfortable shoes for active days.</p>
+              <strong>₹2,499</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80"
+                alt="Leather handbag"
+              />
+              <figcaption>Leather Handbag</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Leather Handbag</h3>
+              <p>Simple and stylish everyday handbag.</p>
+              <strong>₹2,799</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80"
+                alt="Modern chair"
+              />
+              <figcaption>Modern Chair</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Modern Chair</h3>
+              <p>Minimal furniture for modern spaces.</p>
+              <strong>₹3,499</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80"
+                alt="Instant camera"
+              />
+              <figcaption>Instant Camera</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Instant Camera</h3>
+              <p>Capture special moments instantly.</p>
+              <strong>₹4,999</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- MEN SECTION -->
+      <section id="men" class="product-section alternate-section">
+        <div class="section-heading">
+          <p class="section-kicker">MEN'S COLLECTION</p>
+          <h2>Men's Fashion</h2>
+          <p>Explore our latest collection for men.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
+                alt="White men's t-shirt"
+              />
+              <figcaption>Classic T-Shirt</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Classic T-Shirt</h3>
+              <p>Comfortable cotton t-shirt.</p>
+              <strong>₹699</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1548883354-94bcfe321cbb?auto=format&fit=crop&w=600&q=80"
+                alt="Men's denim jacket"
+              />
+              <figcaption>Denim Jacket</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Denim Jacket</h3>
+              <p>Casual jacket for a modern look.</p>
+              <strong>₹1,899</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&q=80"
+                alt="Men's sneakers"
+              />
+              <figcaption>Street Sneakers</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Street Sneakers</h3>
+              <p>Stylish sneakers for daily wear.</p>
+              <strong>₹2,199</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- WOMEN SECTION -->
+      <section id="women" class="product-section">
+        <div class="section-heading">
+          <p class="section-kicker">WOMEN'S COLLECTION</p>
+          <h2>Women's Fashion</h2>
+          <p>Find something special from our women's collection.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80"
+                alt="Women's fashion dress"
+              />
+              <figcaption>Elegant Dress</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Elegant Dress</h3>
+              <p>Simple design with an elegant look.</p>
+              <strong>₹1,799</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80"
+                alt="Women's handbag"
+              />
+              <figcaption>Everyday Bag</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Everyday Bag</h3>
+              <p>Spacious and stylish handbag.</p>
+              <strong>₹1,499</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=600&q=80"
+                alt="Women's sunglasses"
+              />
+              <figcaption>Classic Sunglasses</figcaption>
+            </figure>
+            <div class="product-info">
+              <h3>Classic Sunglasses</h3>
+              <p>Complete your outfit with a classic look.</p>
+              <strong>₹999</strong>
+              <button type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- NEWSLETTER -->
+      <aside class="newsletter">
+        <div>
+          <p class="section-kicker">STAY UPDATED</p>
+          <h2>Subscribe to our Newsletter</h2>
+          <p>Get updates about new products and special offers.</p>
+        </div>
+
+        <form class="newsletter-form">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </aside>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="contact" class="site-footer">
+      <section class="footer-column">
+        <h2>About Company</h2>
+        <p>
+          ShopEase is a simple e-commerce website created for learning HTML and
+          CSS.
+        </p>
+      </section>
+
+      <nav class="footer-column">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#men">Men</a></li>
+          <li><a href="#women">Women</a></li>
+        </ul>
+      </nav>
+
+      <section class="footer-column">
+        <h2>Customer Service</h2>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-column">
+        <h2>Contact Us</h2>
+        <address>
+          Bengaluru, Karnataka, India<br />
+          Email: support@shopease.com<br />
+          Phone: +91 98765 43210
+        </address>
+      </section>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 ShopEase. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
